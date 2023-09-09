@@ -7,5 +7,5 @@ function activeLink(){
     });
     this.classList.add("hovered");
 }
-
+//
 list.forEach(item => item.addEventListener("mouseover", activeLink));
